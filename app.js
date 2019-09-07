@@ -9,14 +9,14 @@ app.use('/assets', assetsRouter)
 
 app.get('/metadata', function (req, res) {
   res.json({
-    name: '2019-iot-theme',
+    name: '2019-smarthome-theme',
     version: '1.0.0'
   })
 })
 
 app.get('/event-title', function (req, res) {
   res.set('Content-Type', 'text/plain')
-  res.send('VolgaCTF IoT')
+  res.send('VolgaCTF SmartHome')
 })
 
 module.exports = app

@@ -1,16 +1,16 @@
 {
-  "name": "volgactf-2019-iot-theme",
+  "name": "volgactf-2019-smarthome-theme",
   "version": "1.0.0",
-  "description": "VolgaCTF 2019 IoT theme",
+  "description": "VolgaCTF 2019 SmartHome theme",
   "main": "bin/server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VolgaCTF/2019-iot-theme.git"
+    "url": "git+https://github.com/VolgaCTF/2019-smarthome-theme.git"
   },
   "author": "VolgaCTF",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/VolgaCTF/2019-iot-theme/issues"
+    "url": "https://github.com/VolgaCTF/2019-smarthome-theme/issues"
   },
   "dependencies": {
     "axios": "^0.18.0",

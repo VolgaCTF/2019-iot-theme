@@ -4,7 +4,7 @@ const router = express.Router()
 
 router.get('/welcome/subject', function (req, res) {
   res.set('Content-Type', 'text/plain')
-  res.send('Welcome to VolgaCTF IoT!')
+  res.send('Welcome to VolgaCTF SmartHome!')
 })
 
 router.get('/welcome/plain', function (req, res) {
